@@ -34,3 +34,19 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+BangPhone/ProjectSettings/AudioManager.asset
+BangPhone/ProjectSettings/ClusterInputManager.asset
+BangPhone/ProjectSettings/DynamicsManager.asset
+BangPhone/ProjectSettings/EditorBuildSettings.asset
+BangPhone/ProjectSettings/EditorSettings.asset
+BangPhone/ProjectSettings/GraphicsSettings.asset
+BangPhone/ProjectSettings/InputManager.asset
+BangPhone/ProjectSettings/NavMeshAreas.asset
+BangPhone/ProjectSettings/NetworkManager.asset
+BangPhone/ProjectSettings/Physics2DSettings.asset
+BangPhone/ProjectSettings/ProjectSettings.asset
+BangPhone/ProjectSettings/ProjectVersion.txt
+BangPhone/ProjectSettings/QualitySettings.asset
+BangPhone/ProjectSettings/TagManager.asset
+BangPhone/ProjectSettings/TimeManager.asset
+BangPhone/ProjectSettings/UnityConnectSettings.asset
