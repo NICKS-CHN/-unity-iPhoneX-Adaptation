@@ -6,16 +6,13 @@ public class BangTest : MonoBehaviour {
 
 	void Start ()
 	{
-
 	    ScreenResizeManager.Instance.OnOrientationChanged += ResizeWindow;
 	    ResizeWindow();
-
 	}
 	
     void OnDestroy()
     {
         ScreenResizeManager.Instance.OnOrientationChanged -= ResizeWindow;
-
     }
 
     private void ResizeWindow()

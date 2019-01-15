@@ -167,15 +167,16 @@ public class ScreenResizeManager
         return _edgeInset;
     }
 
+
     private Rect CalculateNGUIRect()
     {
-        var edgeInset = GetPhoneEdgeInset();
+        var edgeInset = GetPhoneEdgeInset();//得到手机型号的屏幕参数
         if (edgeInset == null)
         {
             return null;
         }
 
-        var root = GameObject.Find("UI Root").GetComponent<UIRoot>();//这里需要得到根节点，根据项目自定义获得方法，这里直接Find
+        var root = GameObject.Find("UI Root").GetComponent<UIRoot>();//这里需要得到根节点，这里偷懒直接Find
         var pixelSizeAdjustment = root.pixelSizeAdjustment;
         var screen = NGUITools.screenSize;
         var widthScale = 1f;
